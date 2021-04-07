@@ -58,6 +58,7 @@
     "babel-loader": "^8.2.2",
     "babel-plugin-import": "^1.13.3",
     "css-loader": "^5.2.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.23.0",
     "eslint-plugin-react": "^7.23.1",
     "html-webpack-plugin": "^5.3.1",
@@ -89,6 +90,6 @@
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }  
+    }
   }
 }
