@@ -21,6 +21,6 @@ module.exports = {
         "@typescript-eslint"
     ],
     "rules": {
-        "indent": ["error", 2]// 缩进2个空格
+        "indent": ["error", 4]// 缩进2个空格
     }
 };
