@@ -2,7 +2,9 @@ import React, {PropsWithChildren} from 'react';
 import { connect } from 'react-redux';
 import {RouteComponentProps} from 'react-router-dom';
 import {RootState, CarState} from '@/store/reducers';
-type Prop = PropsWithChildren<RouteComponentProps> & CarState;
+type StateProps = ReturnType<typeof mapStateToProps>;
+
+type Prop = PropsWithChildren<RouteComponentProps> & StateProps;
 function Car(props: Prop) {
     return <div>{props.title}</div>
 }
